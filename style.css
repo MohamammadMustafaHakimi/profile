@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(168, 223, 142);
+  font-family: 'Edu TAS Beginner', cursive;
+  font-weight: 700;
+  color: aquamarine;
+  text-align: center;
+}
+
+#img1 {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+a {
+  color: rgb(11, 31, 60);
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 2px solid rgb(0, 255, 166);
+  padding: 20px;
+  padding-bottom: 30px;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  body {
+    background-color: rgb(41, 81, 22);
+    color: rgb(221, 235, 230);
+  }
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  body {
+    background-color: rgb(41, 81, 22);
+    color: rgb(221, 235, 230);
+  }
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  body {
+    background-color: rgb(41, 81, 22);
+    color: rgb(221, 235, 230);
+  }
+  .container {
+    width: 300px;
+    border: 2px solid darkgreen;
+  }
+
+  .list-inline > li {
+    display: block;
+  }
+}
